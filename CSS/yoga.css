@@ -130,30 +130,36 @@ footer, .highlight-bar {
 
 /* Create a Parallax Effect */
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
   background-image: url("../Images/Home_page/Header.jpg");
   min-height: 50%;
   margin-bottom: 25px;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Second image (Adventures) */
 .bgimg-2 {
   background-image: url("../Images/Home_page/Adventures.jpg");
   min-height: 250px;
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
   background-image: url("../Images/Home_page/Contact.jpg");
   min-height: 250px;
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .w3-wide {letter-spacing: 10px;}
@@ -209,11 +215,46 @@ footer, .highlight-bar {
 .bgimg-4 {
   background-image: url("../Images/Banner_images/Beach.jpg");
   min-height: 250px;
+         background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bgimg-Seattle {
     background-image: url("../Images/Banner_images/Lake_Crescent.jpg");
     min-height: 250px;
+         background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-California {
+       background-image: url("../Images/Banner_images/Big%20Sur.jpg");
+    min-height: 250px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-WebDesign {
+        background-image: url("../Images/Banner_images/Yoga%20mat.jpg");
+    min-height: 250px;
+         background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-Oahu {
+        background-image: url("../Images/Banner_images/Beach.jpg");
+    min-height: 250px;
+         background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Blog Image Types */
