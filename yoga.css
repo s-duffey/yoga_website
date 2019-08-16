@@ -1,0 +1,289 @@
+h1,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+
+  
+}
+        
+#about, #schedule {
+    padding-top:30px;
+    margin-top: -30px;
+}
+
+p {
+    font-family: "Hind Madurai", sans-serif;
+    size: 16pt;
+    color: #777;
+}
+
+ h2 {
+ 	font-family:"Overlock", sans-serif;
+ 	size: 28pt;
+    color: #21466d;
+  }
+  
+.header-style{
+    size: 36pt;
+    color: white;
+    text-align: center;
+}
+  
+h3 {
+    font-family: "Lato", sans-serif;
+    size: 18pt;
+    color: #4d4d4d
+}
+  
+.w3-col.m3 { 
+    width: 33.33%;
+}
+
+/* Navigation */
+    
+.w3-animate-top .navigation__link {
+    color: darkslategray;
+    }
+    
+.navigation__link.active {
+    background-color: #5b758f;
+    color: white;
+    }
+    
+.navigation__link {
+        color: white;
+    }
+
+/* Buttons */ 
+.blue-rounded {
+     background: #5b758f;
+    border-radius: 4px;
+    color: white;
+    }
+    
+.blue-rounded:focus {
+    color: #000!important;
+    background-color: #ccc!important;
+    }
+    
+footer, .highlight-bar {
+    background: #213242;
+    color: white;
+    }
+
+/* Contact Form */
+.contact-form>label {
+    display:block;
+    }
+    
+.contact-form>input {
+    display:block;
+    padding:3px;
+    border-radius: 4px;
+    border: 1px solid #cbcbcb;
+    }
+    
+.contact-form>textarea {
+    display:block;
+    width:100%;
+    border-radius: 4px;
+    border: 1px solid #cbcbcb;
+    resize:none;
+    height: 175px;
+    }
+
+.text-input{
+    width: 33.33%;
+}
+
+/* Social media icons */
+    
+    .social-icon {
+        text-decoration: none;
+        display: inline-block;
+        margin-bottom: 25px;
+    }
+    
+.icon-size {
+    font-size: 30px;
+    }
+    
+.wb-invis {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 1px; 
+    }
+
+/* Banner Images */
+
+.w3-hover-opacity {cursor: pointer;}
+
+/* Create a Parallax Effect */
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url("./Header.jpg");
+  min-height: 50%;
+  margin-bottom: 25px;
+}
+
+/* Second image (Adventures) */
+.bgimg-2 {
+  background-image: url("./Adventures.jpg");
+  min-height: 250px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("./Contact.jpg");
+  min-height: 250px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
+/* Two column grid on tablet size */
+@media (max-width: 768px){
+    .w3-col.m3 {
+        width: 48%;
+    }
+}
+    
+/* Remove contact image from mobile */
+@media (max-width: 600px) {
+    .hide-image, .highlight-bar {
+        display: none;
+    }
+    .w3-col.m3 {
+        width: 100%;
+    }
+}
+    
+/* Blog Classes */
+
+/* Hover or focus over blog preview section */
+    
+.hover-clickable {
+    text-decoration: none;
+    display:block;
+    transition: transform 0.15s ease-in;
+}
+    
+.hover-clickable:focus, .hover-clickable:hover, .hover-clickable:active {
+    -webkit-transform: scale(0.95,0.95);
+ transform: scale(0.95,0.95);
+    box-shadow: inset -1px -1px 3px #cbcbcb;
+    padding: 3px 6px;
+    }
+    
+.hover-clickable:hover img, .hover-clickable:focus img {
+    opacity: 0.6;
+        
+}
+
+/* Blog Banner Images */
+.bgimg-4 {
+  background-image: url("./Beach.jpg");
+  min-height: 250px;
+}
+
+.bgimg-Seattle {
+    background-image: url("./Blog_Images/Lake_Crescent.jpg");
+    min-height: 250px;
+}
+
+/* Blog Image Types */
+
+.image-center {
+    display: block;
+    text-align: center;
+    font-style: oblique;
+    color: darkgrey;
+    margin: 0 0 30px;
+}
+
+.image-center img {
+    width: auto;
+    height: auto;
+}
+
+.image-left img {
+    float: left;
+    height: 300px;
+    width: 450px;
+    margin-right: 20px;
+}
+
+.image-right img {
+    float: right;
+    height: 300px;
+    width: 450px;
+    margin-left: 20px;
+}
+
+@media (max-width: 675px){
+    .image-left img, image-right img{
+        margin-bottom: 25px;
+        float: none;
+        height: auto;
+        width: auto;
+    }
+}
+
+/* Blog spacing */
+
+.blog-banner-spacer {
+    margin-bottom: 25px;
+}
+
+.blog-content p {
+    margin-bottom: 30px;
+}
+
+/* Back to main link */
+
+.back-link {
+    text-decoration: none;
+    color: #5b758f;
+    
+}
+
+.back-link:hover, .back-link:focus {
+    text-decoration: underline;
+    color: darkgrey;
+    
+}
+
+/* Keep reading bar */
+
+.reading-bar {
+    background: #213242;
+    color: white; 
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.reading-bar span {
+    padding: 20px 0;
+    display: block;
+    font-size: 24px;
+}
+
