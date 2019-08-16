@@ -133,20 +133,20 @@ footer, .highlight-bar {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url("./Header.jpg");
+  background-image: url("../Images/Home_page/Header.jpg");
   min-height: 50%;
   margin-bottom: 25px;
 }
 
 /* Second image (Adventures) */
 .bgimg-2 {
-  background-image: url("./Adventures.jpg");
+  background-image: url("../Images/Home_page/Adventures.jpg");
   min-height: 250px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("./Contact.jpg");
+  background-image: url("../Images/Home_page/Contact.jpg");
   min-height: 250px;
 }
 
@@ -201,12 +201,12 @@ footer, .highlight-bar {
 
 /* Blog Banner Images */
 .bgimg-4 {
-  background-image: url("./Beach.jpg");
+  background-image: url("../Images/Banner_images/Beach.jpg");
   min-height: 250px;
 }
 
 .bgimg-Seattle {
-    background-image: url("./Blog_Images/Lake_Crescent.jpg");
+    background-image: url("../Images/Banner_images/Lake_Crescent.jpg");
     min-height: 250px;
 }
 
