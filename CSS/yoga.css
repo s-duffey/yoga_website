@@ -18,6 +18,12 @@ p {
     color: #777;
 }
 
+h1 { font-family:"Lato", sans-serif;
+    size: 48pt;
+    color: #4d4d4d;
+    
+}
+
  h2 {
  	font-family:"Overlock", sans-serif;
  	size: 28pt;
