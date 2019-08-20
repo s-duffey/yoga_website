@@ -133,7 +133,7 @@ footer, .highlight-bar {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url("../Images/Home_page/banner_2.png");
+  background-image: url("../Images/Home_page/banner-5.jpg");
   min-height: 50%;
   margin-bottom: 25px;
     background-attachment: fixed;
@@ -144,7 +144,7 @@ footer, .highlight-bar {
 
 /* Second image (Adventures) */
 .bgimg-2 {
-  background-image: url("../Images/Home_page/Adventures.jpg");
+  background-image: url("../Images/Home_page/adventures-1.jpg");
   min-height: 250px;
       background-attachment: fixed;
   background-position: center;
@@ -154,7 +154,7 @@ footer, .highlight-bar {
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("../Images/Home_page/Contact.jpg");
+  background-image: url("../Images/Home_page/contact-1.jpg");
   min-height: 250px;
       background-attachment: fixed;
   background-position: center;
