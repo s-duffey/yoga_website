@@ -58,8 +58,19 @@ h3 {
     }
     
 .navigation__link {
-        color: white;
+        color: #5f5f5f;
     }
+
+.display-rounded {
+    border-radius: 4px;
+    background: rgba(0,0,0,0.65) !important;
+}
+
+.small-display-rounded {
+    padding: 0 15px;
+    border-radius: 4px;
+    background: rgba(0,0,0,0.65) !important;
+}
 
 /* Buttons */ 
 .blue-rounded {
@@ -138,6 +149,8 @@ footer, .highlight-bar {
   margin-bottom: 25px;
     background-attachment: fixed;
   background-position: center;
+  background-position-y: center;
+  background-position-x: 75%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -157,7 +170,8 @@ footer, .highlight-bar {
   background-image: url("../Images/Home_page/contact-1.jpg");
   min-height: 250px;
       background-attachment: fixed;
-  background-position: center;
+    background-position-x: 72%;
+    background-position-y: center;
   background-repeat: no-repeat;
   background-size: cover;
 }

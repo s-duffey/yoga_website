@@ -18,26 +18,27 @@
     <a class="navigation__link w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right " href="#navDemo" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#schedule" class="navigation__link w3-bar-item w3-button">Schedule</a>
-    <a href="#about" class="navigation__link w3-bar-item w3-button w3-hide-small"> About</a>
+    <a href="#home" class="navigation__link w3-bar-item w3-button">Home</a>
+    <!--<a href="#schedule" class="navigation__link w3-bar-item w3-button">Schedule</a>-->
+    <a href="#about" class="navigation__link w3-bar-item w3-button w3-hide-small"> Sierra</a>
     <a href="#adventures" class="navigation__link w3-bar-item w3-button w3-hide-small"> Adventures</a>
     <a href="#contact" class="navigation__link w3-bar-item w3-button w3-hide-small"> Contact</a>
   </nav>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#schedule" class="w3-bar-item w3-button" onclick="toggleFunction()">Schedule</a>
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">About</a>
-    <a href="#adventures" class="w3-bar-item w3-button" onclick="toggleFunction()">Adventures</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">Contact</a>
+    <!--<a href="#schedule" class="mobile-nav-link w3-bar-item w3-button" onclick="toggleFunction()">Schedule</a>-->
+    <a href="#about" class="mobile-nav-link w3-bar-item w3-button" onclick="toggleFunction()">Sierra</a>
+    <a href="#adventures" class="mobile-nav-link w3-bar-item w3-button" onclick="toggleFunction()">Adventures</a>
+    <a href="#contact" class="mobile-nav-link w3-bar-item w3-button" onclick="toggleFunction()">Contact</a>
   </div>
 </div>
 
 
 <!-- First Parallax Image with Logo Text -->
-<div class="page-section bgimg-1 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Adventures & Asanas</span>
+<div id="home" class="page-section bgimg-1 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle" style="white-space:nowrap; font-family: 'Overlock', 'Georgia';">
+    <span class="display-rounded w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Adventures & Asanas</span>
   </div>
 </div>
 
@@ -54,6 +55,8 @@
             <li> nature </li>
         </ul>
     </div>
+
+    <!--<div class="page-section w3-content w3-container w3-padding-50" id="schedule"></div>-->
 
 <!-- Container (Teaching Schedule) -->
     <!-- Add Google Calendar for automatic updates -->
@@ -130,7 +133,7 @@ energy and bring out my best self.
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="page-section bgimg-2 w3-display-container w3-opacity-min" >
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide"><h2 class="header-style">Adventures</h2></span>
+    <span class="w3-xxlarge w3-text-white w3-wide"><h2 class="header-style small-display-rounded">Adventures</h2></span>
   </div>
 </div>
 
@@ -219,7 +222,7 @@ energy and bring out my best self.
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="page-section bgimg-3 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide"><h2 class="header-style">Get in touch</h2></span>
+     <span class="w3-xxlarge w3-text-white w3-wide"><h2 class="header-style small-display-rounded">Get in touch</h2></span>
   </div>
 </div>
 
@@ -309,6 +312,21 @@ function toggleFunction() {
 <script>
     $(document).ready(function() {
 		$('.navigation__link').bind('click', function(e) {
+				e.preventDefault(); // prevent hard jump, the default behavior
+
+				var target = $(this).attr("href"); // Set the target as variable
+
+				// perform animated scrolling by getting top-position of target-element and set it as scroll target
+				$('html, body').stop().animate({
+						scrollTop: $(target).offset().top
+				}, 600, function() {
+						location.hash = target; //attach the hash (#jumptarget) to the pageurl
+				});
+
+				return false;
+    });
+    
+    $('.mobile-nav-link').bind('click', function(e) {
 				e.preventDefault(); // prevent hard jump, the default behavior
 
 				var target = $(this).attr("href"); // Set the target as variable
