@@ -1,1 +1,1 @@
-Thank you! :)
+Hello! 
