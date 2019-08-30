@@ -1,7 +1,7 @@
 h1,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
   height: 100%;
-  color: #777;
+  color: #666;
   line-height: 1.8;
 
   
@@ -14,8 +14,8 @@ body, html {
 
 p {
     font-family: "Hind Madurai", sans-serif;
-    size: 16pt;
-    color: #777;
+    font-size: 12pt;
+    color: #666;
 }
 
 h1 { font-family:"Lato", sans-serif;
@@ -151,6 +151,7 @@ footer, .highlight-bar {
   background-position: center;
   background-position-y: center;
   background-position-x: 75%;
+  height: 485px;
   background-repeat: no-repeat;
   background-size: cover;
 }
