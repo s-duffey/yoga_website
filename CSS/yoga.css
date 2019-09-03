@@ -206,6 +206,11 @@ footer, .highlight-bar {
 /* Blog Classes */
 
 /* Hover or focus over blog preview section */
+
+.blog-thumbnail {
+    width: 430px;
+    height: 285px;
+}
     
 .hover-clickable {
     text-decoration: none;
@@ -245,7 +250,7 @@ footer, .highlight-bar {
 }
 
 .bgimg-California {
-       background-image: url("../Images/Banner_images/Big%20Sur.jpg");
+       background-image: url("../Images/Banner_images/California_banner.jpg");
     min-height: 250px; 
   background-attachment: fixed;
   background-position: center;
@@ -263,7 +268,7 @@ footer, .highlight-bar {
 }
 
 .bgimg-Oahu {
-        background-image: url("../Images/Banner_images/Beach.jpg");
+        background-image: url("../Images/Banner_images/Oahu_banner.jpg");
     min-height: 250px;
          background-attachment: fixed;
   background-position: center;
@@ -288,15 +293,15 @@ footer, .highlight-bar {
 
 .image-left img {
     float: left;
-    height: 300px;
-    width: 450px;
+    height: 500px;
+    width: 500px;
     margin-right: 20px;
 }
 
 .image-right img {
     float: right;
-    height: 300px;
-    width: 450px;
+    height: 500px;
+    width: 500px;
     margin-left: 20px;
 }
 
