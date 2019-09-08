@@ -1,0 +1,11 @@
+Blog Images
+
+Left / Right: 425px x 425px
+
+Center: 950px wide. Landscape orientation. 
+
+Banner: 1920px wide. 
+
+Preview: 600px x 400px
+
+Thumbnail: 300px x 200px

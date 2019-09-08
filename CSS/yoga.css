@@ -231,49 +231,30 @@ footer, .highlight-bar {
 }
 
 /* Blog Banner Images */
+.banner {
+    background-size: auto;
+    min-height: 250px;
+    background-attachment: fixed;
+}
+
 .bgimg-4 {
   background-image: url("../Images/Banner_images/Beach.jpg");
-  min-height: 250px;
-         background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .bgimg-Seattle {
     background-image: url("../Images/Banner_images/Lake_Crescent.jpg");
-    min-height: 250px;
-         background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .bgimg-California {
        background-image: url("../Images/Banner_images/California_banner.jpg");
-    min-height: 250px; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .bgimg-WebDesign {
         background-image: url("../Images/Banner_images/Yoga%20mat.jpg");
-    min-height: 250px;
-         background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .bgimg-Oahu {
         background-image: url("../Images/Banner_images/Oahu_banner.jpg");
-    min-height: 250px;
-         background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /* Blog Image Types */
@@ -293,15 +274,15 @@ footer, .highlight-bar {
 
 .image-left img {
     float: left;
-    height: 500px;
-    width: 500px;
+    height: 425px;
+    width: 425px;
     margin-right: 20px;
 }
 
 .image-right img {
     float: right;
-    height: 500px;
-    width: 500px;
+    height: 425px;
+    width: 425px;
     margin-left: 20px;
 }
 
