@@ -242,6 +242,7 @@ footer, .highlight-bar {
 }
 
 .bgimg-Seattle {
+    background-position-x: 50%;
     background-image: url("../Images/Banner_images/Lake_Crescent.jpg");
 }
 
@@ -250,10 +251,12 @@ footer, .highlight-bar {
 }
 
 .bgimg-WebDesign {
+    background-position-x: 75%;
         background-image: url("../Images/Banner_images/Yoga.jpg");
 }
 
 .bgimg-Oahu {
+      background-position-x: 85%;
         background-image: url("../Images/Banner_images/Oahu_banner.jpg");
 }
 
@@ -287,8 +290,9 @@ footer, .highlight-bar {
 }
 
 @media (max-width: 675px){
-    .image-left img, image-right img{
-        margin-bottom: 25px;
+    .image-left img, .image-right img {
+        display: block;
+        margin: 0 auto 25px;
         float: none;
         height: auto;
         width: auto;
@@ -319,7 +323,7 @@ footer, .highlight-bar {
     
 }
 
-/* Keep reading bar */
+/* More Adventures bar */
 
 .reading-bar {
     background: #213242;
