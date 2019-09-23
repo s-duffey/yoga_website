@@ -142,7 +142,7 @@ footer, .highlight-bar {
 /* Create a Parallax Effect */
 
 
-/* First image (Logo. Full height) */
+/* First image */
 .bgimg-1 {
   background-image: url("../Images/Home_page/banner-5.jpg");
   min-height: 50%;
@@ -208,8 +208,8 @@ footer, .highlight-bar {
 /* Hover or focus over blog preview section */
 
 .blog-thumbnail {
-    width: 430px;
-    height: 285px;
+    width: 300px;
+    height: 200px;
 }
     
 .hover-clickable {
@@ -258,6 +258,15 @@ footer, .highlight-bar {
 .bgimg-Oahu {
       background-position-x: 85%;
         background-image: url("../Images/Banner_images/Oahu_banner.jpg");
+}
+
+.bgimg-list {
+    background-image: url("../Images/Home_page/adventures-1.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Blog Image Types */
@@ -338,3 +347,17 @@ footer, .highlight-bar {
     font-size: 24px;
 }
 
+
+/* All Adventures page */
+
+.blog-list {
+    width: auto;
+}
+
+.blog-list a {
+    display:flex;
+}
+
+.blog-list a img {
+    margin-right: 20px;
+}
