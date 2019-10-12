@@ -261,12 +261,19 @@ footer, .highlight-bar {
 }
 
 .bgimg-list {
-    background-image: url("../Images/Home_page/adventures-1.jpg");
+    background-image: url(../Images/Home_page/adventures-1.jpg);
     min-height: 250px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media (max-width:1090px){
+    .bgimg-list {
+        background-position-y: 20%;
+        background-attachment: inherit;
+    }
 }
 
 /* Blog Image Types */
@@ -361,3 +368,10 @@ footer, .highlight-bar {
 .blog-list a img {
     margin-right: 20px;
 }
+
+@media (max-width: 685px){
+    .blog-list a {
+        flex-wrap: wrap;
+    }
+}
+
