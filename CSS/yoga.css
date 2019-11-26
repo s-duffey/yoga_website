@@ -260,6 +260,11 @@ footer, .highlight-bar {
         background-image: url("../Images/Banner_images/Oahu_banner.jpg");
 }
 
+.bgimg-Minimalism {
+    background-position-x: 85%;
+      background-image: url("../Images/Banner_images/Minimalism.jpg");
+}
+
 .bgimg-list {
     background-image: url(../Images/Home_page/adventures-1.jpg);
     min-height: 250px;
