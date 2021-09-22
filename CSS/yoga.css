@@ -18,6 +18,19 @@ p {
     color: #666;
 }
 
+a {
+    color: #21466d;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+li {
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 12pt;
+}
+
 h1 { font-family:"Lato", sans-serif;
     size: 48pt;
     color: #4d4d4d;
@@ -271,7 +284,8 @@ footer, .highlight-bar {
 }
 
 .bgimg-meditation {
-    background-position-x: 85%;
+    background-position-y: 50%;
+    background-size: cover; 
       background-image: url("../Images/Banner_images/banner_tips-for-a-solid-meditation-practice.jpg");
 }
 
@@ -308,14 +322,14 @@ footer, .highlight-bar {
 
 .image-left img {
     float: left;
-    height: 425px;
+    /*height: 425px;*/
     width: 425px;
     margin-right: 20px;
 }
 
 .image-right img {
     float: right;
-    height: 425px;
+    /*height: 425px;*/
     width: 425px;
     margin-left: 20px;
 }
@@ -378,6 +392,10 @@ footer, .highlight-bar {
 
 .blog-list a {
     display:flex;
+}
+
+.blog-list div {
+    max-width:575px;
 }
 
 .blog-list a img {
