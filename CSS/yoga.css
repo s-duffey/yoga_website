@@ -289,6 +289,13 @@ footer, .highlight-bar {
       background-image: url("../Images/Banner_images/banner_tips-for-a-solid-meditation-practice.jpg");
 }
 
+.bgimg-montreal {
+    background-position-y: 50%;
+    background-position: center 
+    background-size: cover; 
+      background-image: url("../Images/Banner_images/blog_the-perfect-weekend-in-montreal.jpg");
+}
+
 .bgimg-list {
     background-image: url(../Images/Home_page/adventures-1.jpg);
     min-height: 250px;
